@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="kdag.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="nav">
+        <img src="logoimg.png" alt="logo" class="logo">
+        <h4>Home</h4> 
+        <h4>Add songs</h4>
+        <h4>Tracks</h4>
+        <h4>Create</h4>
+        <h4>Collaborate</h4>
+    </div>
+    <div id="cursor"></div>
+    <div id="cursor-blur"></div>
+    </div>
+    <video src="music.mp4" autoplay loop muted id="music"></video> <!--In case of video we should use attribute muted autoplay loop-->
+    <div id="main">
+        <div id="page1">
+            <h1>Music.Playlist.Collaboration</h1>
+            <h2>This is the Ultimate Website which you are looking for</h2>
+            <p>Multiple users can collaborate on same playlist by adding, removing and recording songs.
+                Any user can create a new playlist based on their favouraite genres, singers and musicians.
+                Be it any ocassion like party,danceshow,lofi,spiritual,instrumental you can find here. 
+            </p>
+            <div id="icon">
+                <i class="fa-solid fa-arrow-down"></i>
+            </div>
+        </div>
+        <div id="page2">
+            <div id="scroller">
+                <div id="scroller-in">
+                    <h4>HOME</h4> 
+                    <h4>ADD SONGS</h4>
+                    <h4>TRACKS</h4>
+                    <h4>CREATE</h4>
+                    <h4>COLLABORATE</h4>
+                </div>
+                <div id="scroller-in">
+                    <h4>HOME</h4> 
+                    <h4>ADD SONGS</h4>
+                    <h4>TRACKS</h4>
+                    <h4>CREATE</h4>
+                    <h4>COLLABORATE</h4>
+                </div>
+            </div>
+            <div id="about-us">
+                <img src="earbuds.jpg" alt="earbuds">
+                <div id="about-us-in">
+                    <h2>Why Choose This One</h2>
+                    <p>This is the place you all needed to bring some colors in form of music in your life. Most of Us has developed a hobby since childhood of listening to music as it help us keep calm during stress. You will find Music playing a vital role in all your parties, gatherings, festive seasons So come and make your next move.</p>
+                </div>
+                <img src="headphones.jpg" alt="headphones">
+            </div>
+            <div id="cards">
+                <div class="card" id="card1">
+                    <div class="overlay">
+                         <h3>Litsen</h3>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur quas quia quae dicta molestias suscipit animi quasi accusantium sed provident!</p>
+                    </div>
+                </div>
+                <div class="card" id="card2">
+                    <div class="overlay">
+                        <h3>Create</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur quas quia quae dicta molestias suscipit animi quasi accusantium sed provident!</p>
+                   </div>
+                </div>
+                <div class="card" id="card3">
+                    <div class="overlay">
+                        <h3>Dance</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur quas quia quae dicta molestias suscipit animi quasi accusantium sed provident!</p>
+                   </div>
+                </div>
+            </div>
+            <div id="purple">
+                <img src="dots.png" alt="dots">
+                <div id="purple-in">
+                    <h3>This is How Music Feels like!</h3>
+                    <div class="media">
+                       <a href="https://www.linkedin.com/in/siddhesh-agrawal-3ba110252"><i class="fa-brands fa-linkedin"></i></a> 
+                       <a href="https://www.instagram.com/sidsimplified/"> <i class="fa-brands fa-instagram"></i></a>
+                          <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </div>
+                <img src="dots.png" alt="dots">
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script> <!--This are basically gsap liabrary in javascript and its scrolltrigger component 
+    use to add dyamic effects while scrolling in the website-->
+</body>
+</html>
